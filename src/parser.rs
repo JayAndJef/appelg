@@ -12,10 +12,10 @@ pub enum ParseError {
 
 flags! {
     enum Movement: u8 {
-        Up = 0b001,
-        Down = 0b010,
-        Left = 0b0100,
-        Right = 0b1000,
+        Up = 0b1000,
+        Down = 0b0100,
+        Left = 0b0010,
+        Right = 0b0001,
         None = 0b000,
     }
 }
